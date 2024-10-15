@@ -75,7 +75,7 @@ class TelegramLoggerMiddleware:
             'chat_id': self.chat_id,
             'text': text,
             'disable_web_page_preview': True,
-            'parse_mode': 'markdown'
+            'parse_mode': 'HTML'
         }
 
         try:
